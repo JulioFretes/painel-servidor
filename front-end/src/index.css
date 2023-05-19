@@ -1,0 +1,32 @@
+html {
+    font-family: "Roboto", sans-serif;
+
+    color-scheme: dark;
+    color: gainsboro;
+    background-color: #242424;
+
+    font-size: clamp(1rem, 16px, 2.1rem);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2b2b2b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}

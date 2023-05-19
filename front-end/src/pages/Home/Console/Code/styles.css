@@ -1,0 +1,37 @@
+#code-pre {
+    color: #aaaaaa;
+    height: 100%;
+    width: 98%;
+}
+
+.logs-code {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-x: visible;
+}
+
+.scroll-to-bottom-bg {
+    background-color: #181818;
+    height: 100%;
+    padding: 10px 0 15px 10px;
+    border-radius: 8px 8px 0 0;
+    overflow-x: hidden;
+}
+
+div::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+}
+
+div::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: #111111;
+    border-radius: 10px;
+}
+
+#code-pre .hljs {
+    display: flex;
+}
